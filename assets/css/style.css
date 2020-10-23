@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Quicksand, sans-serif !important;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 700
+}
+
+h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 55px !important;
+    margin: 0
+}
+
+h4 {
+    color: #fff;
+    margin: 0
+}
+
+p {
+    color: #fff
+}
+
+.main {
+    background: linear-gradient(115.4deg, #0084f8 11.25%, #58c2f1 85.91%);
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 140px;
+    padding-top: 55px !important;
+    overflow: hidden
+}
+
+.header {
+    background: linear-gradient(27.26deg, #0084f8 9.02%, #58c2f1 90.81%);
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+}
+
+a.nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px
+}
+
+a.nav-link.login {
+    border: none;
+    border-radius: 10px;
+    color: #0084f8;
+    background: #fff
+}
+
+.introduce.container.text-center {
+    margin-bottom: 100px
+}
+
+.introduce {
+    padding: 30px 0
+}
+
+p.introduce {
+    font-size: 20px
+}
+
+img.img-intro {
+    width: 100%
+}
+
+.col-12.col-md-6.d-flex.align-items-center {
+    padding-left: 80px
+}
+
+.row.download {
+    margin-top: 10px
+}
+
+.guide.container.text-center {
+    margin-bottom: 100px
+}
+
+iframe.guide {
+    width: 85%;
+    height: 600px;
+    border-radius: 30px
+}
+
+.footer {
+    background: #0084f8;
+    color: #fff
+}
+
+.container.footer {
+    padding: 70px 0
+}
+
+.row.footer {
+    padding: 30px 0
+}
+
+p.footer {
+    margin: 15px 0 0 0
+}
+
+a.footer {
+    color: #fff
+}
+
+.col-12.col-md-6.footer {
+    padding: 0
+}
+
+.row.footer {
+    margin: 0
+}
+
+.price {
+    padding: 30px 0 70px
+}
+
+.card.rate {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0
+}
+
+img.img-price {
+    width: 55px
+}
+
+h4.text-center.h4-price {
+    font-size: 35px;
+    padding: 17.9px 0;
+    color: #fff
+}
+
+h4.name-price {
+    color: #000
+}
+
+.container.contact {
+    padding: 50px 0 150px 0
+}
+
+h4.contact {
+    font-size: 30px
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px
+}
+
+.row.message {
+    padding-bottom: 20px
+}
+
+textarea {
+    border: none;
+    border-bottom-style: outset
+}
+
+button.submit {
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    color: #0084f8;
+    font-size: 20px;
+    padding: 7px 0
+}
+
+.support img#fb-chat {
+    width: 60px
+}
+
+.support iframe.support {
+    position: fixed;
+    border-style: none;
+    border-radius: 15px
+}
+
+.support {
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.support .content {
+    display: none
+}
+
+@media screen and (max-width:544px) {
+    .main {
+        padding: 70px 10px
+    }
+
+    h1 {
+        font-size: 25px !important;
+        padding: 15px
+    }
+
+    li.nav-item.login {
+        display: none
+    }
+
+    img.logo {
+        width: 90%
+    }
+
+    .introduce.container.text-center {
+        margin-bottom: 40px
+    }
+
+    .introduce {
+        padding: 10px 15px
+    }
+
+    .col-6.img {
+        padding: 0
+    }
+
+    img.img-phone {
+        width: 80%
+    }
+
+    p.introduce {
+        font-size: 15px;
+        padding: 20px 30px
+    }
+
+    img.img-intro {
+        width: 75%
+    }
+
+    .col-12.col-md-6.d-flex.align-items-center {
+        padding-left: 10px
+    }
+
+    .guide.container.text-center {
+        margin-bottom: 0
+    }
+
+    iframe.guide {
+        height: 200px;
+        border-radius: 10px
+    }
+
+    .row.footer {
+        margin: 0;
+        padding: 0 30px;
+        justify-content: center;
+    }
+
+    .col-12.col-md-6.footer {
+        text-align: center;
+    }
+
+    h4.text-center.h4-price {
+        font-size: 23px;
+        padding: 0
+    }
+
+    h4.name-price {
+        font-size: 15px
+    }
+
+    img.img-price {
+        width: 40px
+    }
+
+    .card.rate {
+        margin: 10px;
+        padding: 7px
+    }
+}
+
+@media screen and (max-width:410px) {
+    a.navbar-brand {
+        margin: 0;
+        width: 100px
+    }
+
+    a.nav-link.login.mobile {
+        font-size: 13px
+    }
+
+    img.toggle {
+        width: 90%
+    }
+
+    h4.name-price {
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width:544px) {
+    h4.name-price {
+        font-size: 11px
+    }
+}
+
+.service-mualike {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 0 70px
+}
+
+.container-mualike {
+    max-width: 960px;
+    margin: 0 auto
+}
+
+.mualike-title {
+    color: #0084f8
+}
+
+.mualike-content {
+    color: #000;
+    word-spacing: 2px
+}
+
+.img-mualike {
+    width: 130px;
+    height: 130px
+}
+
+.mualike-name {
+    color: #000
+}
+
+.mualike-text {
+    color: #000;
+    margin-top: 10px
+}
+
+.service-mualike-content {
+    color: #000;
+    text-align: justify
+}
+
+.service-facebook {
+    background: #002459;
+    padding: 30px 0 70px;
+    margin-top: 3rem !important
+}
+
+.increase-list {
+    list-style: none;
+    margin-top: 28px
+}
+
+.increase-link {
+    color: #fff
+}
+
+.icon-like {
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #0095ef;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px
+}
+
+.increase-link:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.service-facebook-title {
+    font-size: 50px;
+    color: #fff
+}
+
+.increase-like {
+    margin-top: 3rem !important;
+    padding-bottom: 3rem !important
+}
+
+.card-like {
+    background: 0 0
+}
+
+.like-picture img {
+    width: 200px;
+    height: 200px
+}
+
+.follow-facebook {
+    background: #fff;
+    padding: 40px 0 70px;
+    border-radius: 20px
+}
+
+.follow-facebook-title {
+    color: #0084f8;
+    margin-top: 40px
+}
+
+.follow-facebook-content {
+    color: #000;
+    line-height: 28px
+}
+
+.increase-comment {
+    margin-top: 3rem !important;
+    padding-bottom: 3rem !important
+}
+
+.why-comment {
+    color: #fff;
+    margin-top: 3rem !important
+}
+
+.card-title-comment {
+    color: #0084f8;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px
+}
+
+.card-comment-img {
+    text-align: center;
+    margin: 30px 0 30px
+}
+
+.card-comment-img img {
+    width: 100px;
+    height: 100px
+}
+
+.card-comment-content {
+    color: #000;
+    text-align: center
+}
+
+.share-title {
+    color: #0084f8
+}
+
+.share-content {
+    color: #000
+}
+
+.share-menu {
+    list-style: none;
+    margin: 20px 0
+}
+
+.fas.fa-heart {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background-color: red
+}
+
+.carousel-indicators {
+    bottom: -70px
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0 16px
+}
+
+.carousel-indicators .active {
+    background-color: #0084f8
+}
+
+.card-share-img {
+    margin-top: 24px
+}
+
+.carousel-share-img {
+    width: 80px;
+    height: 80px
+}
+
+.card-share-content {
+    color: #000
+}
+
+.share-carousel-content {
+    color: #0084f8
+}
+
+.card-video-title {
+    color: #0084f8
+}
+
+.card-youtube-content {
+    color: #000
+}
+
+.icon-youtube img {
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0
+}
+
+.search-mualike {
+    position: relative;
+    margin-top: 40px
+}
+
+.card-search-mualike-img {
+    text-align: center;
+    margin: 30px 0
+}
+
+.card-search-mualike-img img {
+    width: 200px
+}
+
+.card-search-mualike-content {
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px
+}
+
+.search-box {
+    position: absolute;
+    top: 94%;
+    left: 16%;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    padding: 4px
+}
+
+.search-btn {
+    color: #fff;
+    background: linear-gradient(76.53deg, #0084f8 9.02%, #58c2f1 90.81%);
+    border-radius: 0 20px 20px 0;
+    width: 14%;
+    text-align: center;
+    padding: 18px 0;
+    font-weight: 700
+}
+
+.search-btn:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.search-box input {
+    border: none;
+    background: 0 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 20px
+}
+
+@media screen and (max-width:544px) {
+    .mualike-content {
+        font-size: 15px
+    }
+
+    .mualike-text {
+        font-size: 15px
+    }
+
+    .service-mualike-content {
+        font-size: 15px
+    }
+
+    .increase-link {
+        font-size: 12px
+    }
+
+    .service-facebook-title {
+        font-size: 25px
+    }
+
+    ul.increase-like {
+        margin-top: 0
+    }
+
+    .service-facebook {
+        border-radius: 20px;
+        padding-bottom: 50px
+    }
+
+    .increase-like-content {
+        font-size: 15px
+    }
+
+    .like-text {
+        font-size: 15px
+    }
+
+    .follow-facebook-content {
+        font-size: 15px
+    }
+
+    .follow-list {
+        font-size: 15px
+    }
+
+    .comment-content {
+        font-size: 15px
+    }
+
+    .card-comment-content {
+        font-size: 15px
+    }
+
+    .share-content {
+        font-size: 15px
+    }
+
+    .share-menu {
+        font-size: 15px
+    }
+
+    .card-share-content {
+        font-size: 15px
+    }
+
+    .share-carousel-content {
+        font-size: 15px
+    }
+
+    .card-youtube-content {
+        font-size: 15px
+    }
+
+    .search-box {
+        width: 90%;
+        left: 6%;
+        top: 95%
+    }
+
+    .card-search-mualike-content {
+        font-size: 15px
+    }
+
+    .search-btn {
+        font-size: 15px;
+        padding: 4px;
+        padding: 8px;
+        width: 40%
+    }
+
+    .card-search-mualike-content {
+        text-align: justify
+    }
+
+
+}
+
+.slider-active {
+    position: absolute;
+    bottom: 0
+}
+
+.bg-slider {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px
+}
+
+@media screen and (min-width:1024px) {
+    .bg-slider {
+        height: 500px
+    }
+}

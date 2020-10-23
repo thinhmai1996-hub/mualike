@@ -1,0 +1,11 @@
+@font-face {
+    font-family: iCielAvantGardeGothic;
+    src: url(iCielAvantGardeGothic-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: iCielAvantGardeGothicBold;
+    src: url(iCielAvantGardeGothic-Bold.ttf) format('truetype');
+}

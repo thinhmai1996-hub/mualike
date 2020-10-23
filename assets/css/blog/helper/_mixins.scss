@@ -1,0 +1,21 @@
+// Mixins media query
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == mobile {
+        @media (max-width: 46.1875em) {
+            @content;
+        } //739px
+    } @else if $breakpoint == tablet {
+        @media (min-width: 46.25em) and (max-width: 63.9375em) {
+            .container {
+                max-width: 1140px;
+            }
+            @content;
+        } //740px -> 1023px
+    }
+    // @else if $breakpoint == desktop {
+    //     @media (min-width: 64em) {
+    //         @content;
+    //     } //1024px
+    // }
+}

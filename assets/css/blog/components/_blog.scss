@@ -1,0 +1,125 @@
+main {
+    padding-top: 60px;
+}
+.main-vlog {
+    padding: 30px 0 10px;
+
+    p {
+        color: #828282;
+    }
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    .card-body {
+        padding: 20px 0;
+        .card-title {
+            font-size: 26px;
+            color: $primary;
+        }
+    }
+}
+
+.read-more {
+    display: block;
+    margin: 20px 0;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+aside {
+    padding: 10px 0;
+    .search-input {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        background: #f2f2f2;
+        padding: 18px 20px;
+        align-items: center;
+
+        input {
+            width: 100%;
+            border: none;
+            background: none;
+            outline: none;
+            flex: 1;
+            font-size: 15px;
+        }
+        .btn-search {
+            i {
+                font-size: 20px;
+                color: $text-dark;
+            }
+        }
+    }
+
+    .aside-title {
+        padding: 40px 10px;
+    }
+
+    .card {
+        flex-direction: row;
+        border: none;
+        margin-bottom: 10px;
+        .card-body {
+            padding: 0;
+            .card-title {
+                font-size: 12px;
+                color: $text-dark;
+            }
+            .date {
+                color: $text-dark;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .aside-list {
+        list-style: none;
+        padding: 10px;
+        li {
+            margin-bottom: 20px;
+            a {
+                color: $text-dark;
+                font-size: 16px;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@include responsive(mobile) {
+    aside {
+        .aside-title {
+            text-align: center;
+        }
+        .card-title {
+            font-size: 14px !important;
+        }
+        .card {
+            .card-body {
+                margin-top: 14px;
+            }
+        }
+        .aside-list {
+            text-align: center;
+        }
+    }
+}
+
+@include responsive(tablet) {
+    aside {
+        .card-title {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
